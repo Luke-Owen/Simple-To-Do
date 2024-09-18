@@ -1,8 +1,5 @@
-from datetime import timezone, datetime
-
 from django.test import TestCase
 from django.urls import reverse
-
 from todo.Forms.UserInputForm import UserInputForm
 from todo.Models.models import ToDoItem
 
